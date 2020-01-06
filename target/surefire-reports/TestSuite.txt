@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 68.271 sec <<< FAILURE!
+verifyemailtab(com.app.tests.HomePageTest)  Time elapsed: 18.841 sec  <<< FAILURE!
+java.lang.AssertionError: Failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.app.tests.HomePageTest.verifyemailtab(HomePageTest.java:52)
+
