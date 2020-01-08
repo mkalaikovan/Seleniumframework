@@ -6,6 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DressPageObjects extends BasePage {
 
+
 	@FindBy(xpath = "(//a[@title='Dresses'])[2]")
 	private WebElement dresses;
 	
