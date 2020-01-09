@@ -28,6 +28,7 @@ public class DressPageObjects extends BasePage {
 	}
 	
 	public WebElement getdressestab3() {
+
 		return dresses;
 	}
 	public WebElement chkboxsmall()
