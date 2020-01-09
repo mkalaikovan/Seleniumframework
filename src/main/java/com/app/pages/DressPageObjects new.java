@@ -27,7 +27,7 @@ public class DressPageObjects extends BasePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public WebElement getdressestab() {
+	public WebElement getdressestab3() {
 		return dresses;
 	}
 	public WebElement chkboxsmall()
